@@ -12,6 +12,13 @@ authors:
 
     This wiki may contain outdated information.
 
+## GPD Pocket 4
+Screen is portrait and needs to be adjusted. The following command will make the necessary adjustments. 
+
+    rpm-ostree kargs --append-if-missing="fbcon=rotate:1 video=eDP-1:panel_orientation=right_side_up"
+
+
+
 ## GPD Win 4
 
 ![gpdwin4|690x328, 100%](../../img/gpdwin4.jpeg)
